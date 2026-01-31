@@ -1,0 +1,50 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "indirect-prompt-injection-bipia-gpt",
+  "dataset_size": 99445939,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/MAlmasabi/Indirect-Prompt-Injection-BIPIA-GPT@e5c8011e16ea1d621897a24473b40fd7afccbd92/dataset_for_huggingface.jsonl": {
+      "num_bytes": 104450532,
+      "checksum": null
+    }
+  },
+  "download_size": 104450532,
+  "features": {
+    "context": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "user_intent": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "source": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 203896471,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 99445939,
+      "num_examples": 70000,
+      "dataset_name": "indirect-prompt-injection-bipia-gpt"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
